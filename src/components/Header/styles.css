@@ -1,0 +1,36 @@
+.header {
+    overflow: hidden;
+    background-color: #0b0b50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #0b0b50;
+}
+
+.header p.logotipo {
+    font-size: 25px;
+    padding: 12px 13px;
+    background-color: #0b0b50;
+    border: 1px solid #9466ff;
+    color: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+    
+}
+
+p.logotipo:hover {
+    background-color: #9466ff;
+    border-radius: 4px;
+}
+
+p.logotipo.active {
+    padding: 12px 23px;
+    background-color: #9466ff;
+    border: 1px solid #0b0b50;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.content {
+    float: right;
+}
